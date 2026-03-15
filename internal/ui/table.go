@@ -10,7 +10,7 @@ import (
 func PrintTable(items []ports.PortInfo) {
 
 	if len(items) == 0 {
-		fmt.Println("No common dev ports detected.")
+		fmt.Println("No active development ports detected.")
 		return
 	}
 
